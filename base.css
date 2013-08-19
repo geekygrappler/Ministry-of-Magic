@@ -1,0 +1,17 @@
+/* CSS for Ministry of Magic GOV.UK rip off */
+
+/* Header */
+
+.header-wrapper {
+	height: 101px;
+	background-color: black;
+	width: 100%;
+}
+
+
+/* Body */
+
+body {
+	margin: 0px; /* Remove any margin on document */
+}
+
