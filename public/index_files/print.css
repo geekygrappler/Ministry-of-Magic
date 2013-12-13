@@ -1,0 +1,288 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+/* CSS 3 Mixins
+
+  Add them as you need them. This should let us manage vendor prefixes in one place.
+ */
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@font-face {
+  font-family: GDS-Regular;
+  src: local("NTA-Light"), local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
+}
+
+@font-face {
+  font-family: GDS-Bold;
+  src: local("NTA-Medium"), local("UKTransportmed"), local("UKTransportMed"), local("HelveticaNeue-Bold"), local("Helvetica Neue Bold"), local("Arial-BoldMT"), local("Arial Bold MT"), local("Helvetica-Bold"), local("Helvetica Bold"), local("Arial");
+}
+
+@font-face {
+  font-family: GDS-Black;
+  src: local("NTA-Bold"), local("UKTransportheavy"), local("HelveticaNeue-Bold"), local("Helvetica Neue Bold"), local("Arial-BoldMT"), local("Arial Bold MT"), local("Helvetica-Bold"), local("Helvetica Bold"), local("Arial");
+}
+
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
+}
+
+/* line 33, ../../../../app/assets/stylesheets/frontend/print.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 1, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper h1 {
+  font-family: "nta", "GDS-Regular", sans-serif;
+  font-size: 16pt;
+  line-height: 1.11111;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 8px;
+  padding-top: 0.8rem;
+  padding-bottom: 7px;
+  padding-bottom: 0.7rem;
+  margin: 10px 0;
+}
+@media (max-width: 640px) {
+  /* line 1, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper h1 {
+    font-size: 1.8rem;
+    line-height: 1.11111;
+  }
+}
+@media (min-width: 641px) {
+  /* line 1, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper h1 {
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+  }
+}
+/* line 5, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper h2 {
+  font-family: "nta", "GDS-Regular", sans-serif;
+  font-size: 16pt;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 9px;
+  padding-top: 0.9rem;
+  padding-bottom: 6px;
+  padding-bottom: 0.6rem;
+  margin: 10px 0 0;
+}
+@media (max-width: 640px) {
+  /* line 5, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+@media (min-width: 641px) {
+  /* line 5, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper h2 {
+    padding-top: 0.6rem;
+    padding-bottom: 0.4rem;
+  }
+}
+/* line 11, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper h3,
+#whitehall-wrapper h4,
+#whitehall-wrapper h5 {
+  font-family: "nta", "GDS-Regular", sans-serif;
+  font-size: 14pt;
+  line-height: 1.31579;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 2px;
+  padding-top: 0.2rem;
+  padding-bottom: 8px;
+  padding-bottom: 0.8rem;
+  margin: 10px 0 0;
+}
+@media (max-width: 640px) {
+  /* line 11, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper h3,
+  #whitehall-wrapper h4,
+  #whitehall-wrapper h5 {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 641px) {
+  /* line 11, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper h3,
+  #whitehall-wrapper h4,
+  #whitehall-wrapper h5 {
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+  }
+}
+/* line 15, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper h4 {
+  margin: 5px 0 0;
+}
+/* line 18, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper h5 {
+  margin: 0;
+}
+/* line 21, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper p {
+  font-family: "nta", "GDS-Regular", sans-serif;
+  font-size: 11pt;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 8px;
+  padding-top: 0.8rem;
+  padding-bottom: 7px;
+  padding-bottom: 0.7rem;
+  margin: 5px 0;
+}
+@media (max-width: 640px) {
+  /* line 21, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper p {
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 641px) {
+  /* line 21, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+/* line 25, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper ol {
+  list-style: decimal;
+  list-style-position: outside;
+}
+/* line 29, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper ul {
+  list-style: disc;
+  list-style-position: outside;
+}
+/* line 33, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper li {
+  font-family: "nta", "GDS-Regular", sans-serif;
+  font-size: 11pt;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 8px;
+  padding-top: 0.8rem;
+  padding-bottom: 7px;
+  padding-bottom: 0.7rem;
+  margin-left: 12px;
+}
+@media (max-width: 640px) {
+  /* line 33, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper li {
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 641px) {
+  /* line 33, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+/* line 37, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper li li {
+  margin-left: 10px;
+}
+/* line 41, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper strong, #whitehall-wrapper b {
+  font-family: "nta-bold", "GDS-Bold", sans-serif;
+}
+/* line 44, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper em, #whitehall-wrapper i {
+  font-style: italic;
+}
+/* line 47, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper blockquote p {
+  text-indent: -0.45em;
+  padding-left: 10px;
+}
+/* line 52, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper hr {
+  margin-top: 9px;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+/* line 57, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper figure {
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+  padding: 3.33333px 0 0;
+}
+/* line 63, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper figure img {
+  display: inline;
+  text-align: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+/* line 70, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper figure figcaption {
+  font-family: "nta", "GDS-Regular", sans-serif;
+  font-size: 11pt;
+  line-height: 1.42857;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 8px;
+  padding-top: 0.8rem;
+  padding-bottom: 7px;
+  padding-bottom: 0.7rem;
+}
+@media (max-width: 640px) {
+  /* line 70, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper figure figcaption {
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 641px) {
+  /* line 70, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+  #whitehall-wrapper figure figcaption {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+/* line 74, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper .player-container {
+  display: none;
+}
+/* line 79, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper aside.meta dt {
+  float: left;
+  clear: both;
+  min-width: 100px;
+}
+/* line 84, ../../../../app/assets/stylesheets/frontend/helpers/_print.scss */
+#whitehall-wrapper aside.meta dd p {
+  margin: 0;
+  padding: 0;
+}
