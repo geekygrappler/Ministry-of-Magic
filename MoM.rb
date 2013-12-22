@@ -1,7 +1,9 @@
 require 'sinatra'
 
-set :static, true
-
 get '/' do
-    send_file 'index.html'    
+    erb :index   
+end
+
+get '/confundus' do
+    erb :confundus
 end
